@@ -96,7 +96,7 @@ const questionDatabase = {
         {
             question: "Quantas vogais tem o alfabeto português?",
             options: ["4", "5", "6", "7"],
-            correct: 2,
+            correct: 1,
             explanation: "São 5 vogais: A, E, I, O, U."
         },
         {
@@ -295,7 +295,7 @@ const questionDatabase = {
             question: "Qual característica NÃO pertence ao gênero NOTÍCIA?",
             options: ["Linguagem objetiva", "Presença de lead", "Opinião pessoal do autor", "Informações atuais"],
             correct: 2,
-            explanation: "Notícias devem ser imparciais, sans opinião pessoal do jornalista."
+            explanation: "Notícias devem ser imparciais, sem opinião pessoal do jornalista."
         },
         {
             question: "O que é o 'lead' em uma notícia?",
@@ -417,7 +417,7 @@ const questionDatabase = {
             question: "O que caracteriza um texto LÍRICO?",
             options: ["Presença de diálogos", "Expressão de sentimentos", "Sequência de ações", "Descrição de lugares"],
             correct: 1,
-            explanation: "Texto lírico expressa sentimentos and emoções do eu-lírico."
+            explanation: "Texto lírico expressa sentimentos e emoções do eu-lírico."
         },
         {
             question: "Em uma narrativa, o que é o CLÍMAX?",
@@ -1114,3 +1114,4 @@ document.getElementById('playerName').addEventListener('keypress', (e) => {
     }
 
 });
+
