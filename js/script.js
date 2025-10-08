@@ -48,7 +48,7 @@ const questionDatabase = {
         {
             question: "Quantas sílabas tem a palavra 'computador'?",
             options: ["3", "4", "5", "6"],
-            correct: 2,
+            correct: 1,
             explanation: "Com-pu-ta-dor tem 4 sílabas."
         },
         {
@@ -1112,4 +1112,5 @@ document.getElementById('playerName').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         addPlayer();
     }
+
 });
